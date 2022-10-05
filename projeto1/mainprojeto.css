@@ -12,14 +12,14 @@ form button {
     font-weight: normal;
 }
 
-body, input, textarea{
+body, input, textarea {
     font-family: 'Roboto', sans-serif;
 }
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1
+    background-color: black;
+    color:white
 }
 
 header nav li {
@@ -29,14 +29,14 @@ header nav li {
 }
 
 header nav li a {
-    text-decoration:none;
-    color:#ecf0f1
+    color: white;
+    text-decoration: none;
 }
 
 .container {
     max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
+    margin:0 auto;
 }
 
 header .container,
@@ -46,7 +46,7 @@ section .container {
     justify-content: space-between;
 }
 
-.brand-list img{
+.brand-list img {
     height: 36px;
 }
 
@@ -55,7 +55,7 @@ section .container {
     margin-right: 8px;
 }
 
-section .container{
+section .container {
     align-items: flex-start;
 }
 
@@ -65,18 +65,17 @@ section {
 
 section h2 {
     margin-bottom: 16px;
-    color: #182c61
 }
 
-section {
-    color:#182c61
+section h2 {
+    color: black;
 }
 
 section p {
     margin-bottom: 8px;
 }
 
-.store-front {
+.corinthians-front {
     margin-right: 32px;
 }
 
@@ -90,21 +89,21 @@ section p {
 }
 
 .social-links li a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #contact .container {
     display: block;
 }
 
-.contaxt-methods {
+.contact-methods {
     display: flex;
     justify-content: space-between;
 }
 
 form input,
-form textarea,
-form button {
+form button,
+form textarea {
     display: block;
     width: 320px;
     margin-bottom: 8px;
@@ -121,22 +120,22 @@ section h3 {
 }
 
 form button {
-    background-color: #182c61;
-    color:#ecf0f1;
+    background-color: black;
+    color: white;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: rgb(37, 37, 37);
 }
 
 input:focus, textarea:focus {
-    outline-color: #182c61;
+    outline-color: black;
 }
 
 footer {
-    background-color: #182c61;
-    color:#ecf0f1;
+    background-color: black;
+    color: white;
     padding: 16px 0;
 }
